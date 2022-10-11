@@ -1,4 +1,5 @@
 # ceccoff-portifolio-angular
+
 My Portifolio
 
 - [x] - Angular CLI generate project
@@ -12,5 +13,5 @@ My Portifolio
 - [ ] - Configure lintstaged in git hooks with husky
 - [ ] - Install prettier
 - [ ] - Install eslint
-- [ ] - Configure eslint 
+- [ ] - Configure eslint
 - [ ] - Configure eslint in git hooks with husky
