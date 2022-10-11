@@ -3,7 +3,9 @@ My Portifolio
 
 - [x] - Angular CLI generate project
 - [x] - Install Husky
-- [ ] - Configure Husky with git git hooks with husky
+- [x] - Configure Husky with git git hooks
+- [ ] - Install commitlint
+- [ ] - Config commitlint
 - [ ] - Configure prettier
 - [ ] - Configure prettier in git hooks with husky
 - [ ] - Install lintstaged
