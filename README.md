@@ -13,4 +13,4 @@ My Portifolio
 - [x] - Configure lintstaged in git hooks
 - [x] - Install eslint
 - [x] - Configure eslint
-- [ ] - Configure eslint in git hooks with husky
+- [x] - Configure eslint in git hooks with husky
