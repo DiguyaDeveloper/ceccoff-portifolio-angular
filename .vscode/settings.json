@@ -1,6 +1,14 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "sonarlint.output.showAnalyzerLogs": true,
+  "sonarlint.output.showVerboseLogs": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
@@ -12,5 +20,5 @@
       "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true
-  },
+  }
 }
