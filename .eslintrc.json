@@ -3,10 +3,12 @@
   "ignorePatterns": [
     "projects/**/*"
   ],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "extends": ["eslint:recommended", "prettier"],
   "overrides": [
     {
       "files": [
-        "*.ts"
+        "*.ts", "js"
       ],
       "parserOptions": {
         "project": [
