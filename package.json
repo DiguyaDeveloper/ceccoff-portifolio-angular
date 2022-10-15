@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test --watch=false",
     "prepare": "husky install",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier  \"src/**/*.+(ts|js|html|json)\" --check",
+    "prettier:fix": "prettier --write \"src/**/*.+(ts|js|html|json)\""
   },
   "private": true,
   "dependencies": {
