@@ -14,3 +14,6 @@ My Portifolio
 - [x] - Install eslint
 - [x] - Configure eslint
 - [x] - Configure eslint in git hooks with husky
+- [x] - Organize Imports
+
+## Functionalities

@@ -1,7 +1,4 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "git.autofetch": true,
   "sonarlint.output.showAnalyzerLogs": true,
