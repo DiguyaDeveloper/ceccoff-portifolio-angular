@@ -1,11 +1,18 @@
 {
   "root": true,
   "ignorePatterns": ["projects/**/*"],
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
   "plugins": ["prettier"],
   "extends": ["prettier"],
+
   "overrides": [
     {
-      "files": ["*.ts", "js"],
+      "files": ["*.ts"],
       "parserOptions": {
         "project": ["tsconfig.json"],
         "createDefaultProgram": true
@@ -22,7 +29,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "app",
+            "prefix": "ceccoff",
             "style": "camelCase"
           }
         ],
@@ -30,7 +37,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
+            "prefix": "ceccoff",
             "style": "kebab-case"
           }
         ]

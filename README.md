@@ -16,4 +16,6 @@ My Portifolio
 - [x] - Configure eslint in git hooks with husky
 - [x] - Organize Imports
 
-## Functionalities
+## Tasks
+
+- [x] - Create Splash Screen
