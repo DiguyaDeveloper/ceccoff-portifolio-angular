@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         asce: "url('../public/bg-asce.png')",
+        'asce-light': "url('../public/bg-asce-light.png')",
         'bg-gradient':
           'linear-gradient(89.86deg, #9572fc 20.08%, #45e7ad 39.94%, #e1055e 75.57%)',
         'bg-gradient-100':
