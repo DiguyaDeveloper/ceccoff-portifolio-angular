@@ -10,31 +10,44 @@
         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
         <mat-icon
           class="icon-size-5 text-current mr-2"
-          [svgIcon]="'feather:facebook'"></mat-icon>
+          [svgIcon]="'feather:facebook'"
+          (click)="onClickLink('facebook')"></mat-icon>
         <span class="sr-only">Facebook page</span>
       </a>
       <a
         href="#"
         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-        <img src="assets/svg/linkedin.svg" class="w-5 h-5" />
+        <mat-icon
+          class="icon-size-5 text-current mr-2"
+          [svgIcon]="'feather:linkedin'"
+          (click)="onClickLink('linkedin')"></mat-icon>
         <span class="sr-only">Linkedin page</span>
       </a>
       <a
         href="#"
         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-        <img src="assets/svg/instagram.svg" class="w-5 h-5" />
+        <mat-icon
+          class="icon-size-5 text-current mr-2"
+          [svgIcon]="'feather:instagram'"
+          (click)="onClickLink('instagram')"></mat-icon>
         <span class="sr-only">Instagram page</span>
       </a>
       <a
         href="#"
         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-        <img src="assets/svg/twitter.svg" class="w-5 h-5" />
-        <span class="sr-only">Twitter page</span>
+        <mat-icon
+          class="icon-size-5 text-current mr-2"
+          [svgIcon]="'feather:twitch'"
+          (click)="onClickLink('twitch')"></mat-icon>
+        <span class="sr-only">Twitch page</span>
       </a>
       <a
         href="#"
         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-        <img src="assets/svg/github.svg" class="w-5 h-5" />
+        <mat-icon
+          class="icon-size-5 text-current mr-2"
+          [svgIcon]="'feather:github'"
+          (click)="onClickLink('github')"></mat-icon>
         <span class="sr-only">GitHub account</span>
       </a>
     </div>
