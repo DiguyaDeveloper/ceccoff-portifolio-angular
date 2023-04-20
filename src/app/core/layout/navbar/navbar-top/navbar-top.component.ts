@@ -4,13 +4,13 @@ import { Subject, takeUntil } from 'rxjs';
 import { Profile } from 'src/app/core/interfaces/profile.interface';
 import { ProfileService } from 'src/app/core/service/profile/profile.service';
 import { SocialMidiaService } from 'src/app/core/service/social/social.service';
-import { SocialMidia } from 'src/app/core/types/social.types';
+import { NavbarSocialMidiaComponent } from './navbar-social-midia/navbar-social-midia.component';
 
 @Component({
   standalone: true,
   selector: 'ceccoff-navbar-top',
   templateUrl: './navbar-top.component.html',
-  imports: [MatIconModule],
+  imports: [MatIconModule, NavbarSocialMidiaComponent],
 })
 export class NavbarTopComponent {
   private _unsubscribeAll: Subject<null> = new Subject<null>();
@@ -30,10 +30,6 @@ export class NavbarTopComponent {
           this.profile = profile;
         },
       });
-  }
-
-  onClickLink(socialMidia: SocialMidia) {
-    this._socialMidiaService.redirectToSocialMidia(socialMidia);
   }
 
   ngOnDestroy(): void {
