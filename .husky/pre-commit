@@ -2,10 +2,10 @@
 "$(dirname -- "$0")/_/husky.sh"
 # npm run test
 
-echo \"[Husky] pre-commit run lint-staged\"
-
+# Run lint-staged
+echo "[Husky] Running lint-staged"
 npx lint-staged
 
-echo \"[Husky] pre-commit run npx commitlint\"
-
-npx --no -- commitlint --edit ${1}
+# Run commitlint
+echo "[Husky] Running commitlint"
+npx --no -- commitlint --edit "$1"
